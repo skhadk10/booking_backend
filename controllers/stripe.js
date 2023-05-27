@@ -91,6 +91,6 @@ export const payoutSetting = async (req, res) => {
     // console.log("stripe payout setting: ", loginLink);
     res.json(loginLink);
   } catch (err) {
-    console.log("stripe payment setting err",err);
+    console.log("stripe payment setting err", err);
   }
 };
